@@ -1,0 +1,23 @@
+# CODEOWNERS — TalebElm
+# Super-owner: abdulrahmanhossam reviews everything.
+# DB and Security paths additionally require abdulla7mohamed.
+
+# ── Default (all files) ───────────────────────────────────────────────────────
+*                                                           @abdulrahmanhossam
+
+# ── Database / Persistence ───────────────────────────────────────────────────
+src/TalebElm.Infrastructure/Migrations/                     @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Infrastructure/Persistence/                    @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Infrastructure/Repositories/                   @abdulrahmanhossam @abdulla7mohamed
+
+# ── Security / Auth / Identity ───────────────────────────────────────────────
+src/TalebElm.Infrastructure/Auth/                           @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Infrastructure/Security/                       @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Infrastructure/Identity/                       @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Application/Auth/                              @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Application/Security/                          @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Api/Auth/                                      @abdulrahmanhossam @abdulla7mohamed
+src/TalebElm.Api/Security/                                  @abdulrahmanhossam @abdulla7mohamed
+
+# ── CI / Governance ──────────────────────────────────────────────────────────
+.github/                                                    @abdulrahmanhossam @abdulla7mohamed
